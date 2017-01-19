@@ -1,0 +1,29 @@
+{
+  "name": "typescript-array-utils",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "typescript",
+    "array"
+  ],
+  "scripts": {
+    "prepublish": "tsc -d",
+    "test": "ts-node node_modules/tape/bin/tape src/**/*.test.ts"
+  },
+  "author": "Daniel Król",
+  "license": "MIT",
+  "dependencies": {
+    "es6-shim": "^0.35.2"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.32",
+    "@types/tape": "^4.2.28",
+    "tape": "^4.6.3",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mleko/typescript-array-utils.git"
+  }
+}
