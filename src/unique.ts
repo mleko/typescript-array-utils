@@ -6,6 +6,6 @@ export function unique<T>(arr: T[], compare: (a: T, b: T) => boolean = identityC
 	return arr.filter((e, index) => {
 		return index === arr.findIndex((v) => {
 			return compare(e, v);
-		})
-	})
+		});
+	});
 }

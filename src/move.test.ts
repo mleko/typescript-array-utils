@@ -43,7 +43,7 @@ test("Test moving element in place", (t) => {
 test("Test symmetry", (t) => {
 	const input = [0, 1, 2, 3, 4, 5];
 
-	let actual = move(move(input, 1, 4), 4, 1);
+	const actual = move(move(input, 1, 4), 4, 1);
 
 	t.equals(actual.length, input.length);
 	t.deepEquals(actual, input);

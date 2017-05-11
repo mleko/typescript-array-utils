@@ -8,7 +8,6 @@ test("Test selecting unique values", (t) => {
 	const intActual = unique(intInput);
 	t.deepEqual(intActual, intExpected);
 
-	type Obj = {id: number};
 	const objInput: Obj[] = [{id: 1}, {id: 2}, {id: 1}, {id: 6}];
 
 	t.deepEqual(unique(objInput), objInput);
@@ -16,9 +15,13 @@ test("Test selecting unique values", (t) => {
 	const objExpectedIdCmp = [{id: 1}, {id: 2}, {id: 6}];
 
 	const objActualIdCmp = unique(objInput, (a, b) => {
-		return a.id === b.id
+		return a.id === b.id;
 	});
 	t.deepEqual(objActualIdCmp, objExpectedIdCmp);
 
 	t.end();
 });
+
+interface Obj {
+	id: number;
+}
