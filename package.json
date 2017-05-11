@@ -1,7 +1,8 @@
 {
   "name": "typescript-array-utils",
   "version": "0.1.1",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "description": "Immutable array manipulation methods",
   "keywords": [
     "typescript",

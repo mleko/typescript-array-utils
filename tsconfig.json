@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "jsx": "react",
+    "outDir": "dist",
     "declaration": false,
     "noImplicitAny": false,
     "removeComments": true,
