@@ -1,4 +1,4 @@
-import "es6-shim";
+require("es6-shim");
 
 export {replace} from "./src/replace";
 export {without} from "./src/without";

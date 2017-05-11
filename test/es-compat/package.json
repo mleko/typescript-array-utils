@@ -1,5 +1,5 @@
 {
-  "name": "@mleko/typescript-object-utils-compat-test",
+  "name": "@mleko/typescript-array-utils-compat-test",
   "scripts": {
     "compile-es5": "tsc -p tsconfig-es5.json",
     "compile-es6": "tsc -p tsconfig-es6.json"
@@ -8,8 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "typescript-array-utils": "latest",
-    "es6-shim": "latest"
+    "typescript-array-utils": "latest"
   },
   "devDependencies": {
     "typescript": "latest"

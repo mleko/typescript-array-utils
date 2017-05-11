@@ -4,7 +4,7 @@ const identityCompare = <T>(a: T, b: T): boolean => {
 
 export function unique<T>(arr: T[], compare: (a: T, b: T) => boolean = identityCompare): T[] {
 	return arr.filter((e, index) => {
-		return index === arr.findIndex((v) => {
+		return index === (arr as any).findIndex((v) => {
 			return compare(e, v);
 		});
 	});
