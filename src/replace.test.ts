@@ -14,5 +14,12 @@ test("Test element replacement", (t) => {
 	t.equals(actual.length, expected.length);
 	t.equals(actual[1], element);
 
+	const appended = replace(input, 3, element);
+	t.equal(appended.length, 4);
+	t.equal(appended[3], element);
+	t.equal(appended[0], input[0]);
+	t.equal(appended[1], input[1]);
+	t.equal(appended[2], input[2]);
+
 	t.end();
 });
