@@ -29,5 +29,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mleko/typescript-array-utils.git"
-  }
+  },
+  "files": [
+    "index.ts",
+    "LICENSE.md",
+    "README.md",
+    "tsconfig.json",
+    "tslint.json",
+    "src",
+    "dist"
+  ]
 }
