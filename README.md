@@ -54,4 +54,11 @@ without([0, 1, 2, 3, 4], 2)
  //=> [ 0, 1, 3, 4 ]
 ```
 
+#### arrayCreate
+```typescript
+import {arrayCreate} from "typescript-array-utils";
+arrayCreate(4, (n) => n*2)
+ //=> [ 0, 2, 4, 6 ]
+```
+
 ### [License (MIT)](LICENSE.md)

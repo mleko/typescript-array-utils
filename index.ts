@@ -3,3 +3,4 @@ export {without} from "./src/without";
 export {move} from "./src/move";
 export {unique} from "./src/unique";
 export {insert} from "./src/insert";
+export {arrayCreate} from "./src/arrayCreate";
