@@ -1,5 +1,5 @@
 import * as test from "tape";
-import {without} from "./without";
+import {without} from "..";
 
 test("Test element removal", (t) => {
 	const input = [0, 1, 2, 3, 4];

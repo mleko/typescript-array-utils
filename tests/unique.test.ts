@@ -1,5 +1,5 @@
 import * as test from "tape";
-import {unique} from "./unique";
+import {unique} from "..";
 
 test("Test selecting unique values", (t) => {
 	const intInput = [9, 1, 2, 3, 1, 1, 3, 5, 2, 5, 7];

@@ -1,5 +1,5 @@
 import * as test from "tape";
-import {insert} from "./insert";
+import {insert} from "..";
 
 test("Test element insertion", (t) => {
 	const expected = [0, 5, 1, 2, 3, 4];

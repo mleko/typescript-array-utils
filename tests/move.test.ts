@@ -1,5 +1,5 @@
 import * as test from "tape";
-import {move} from "./move";
+import {move} from "..";
 
 test("Test element moving forward", (t) => {
 	const input = [0, 1, 2, 3, 4, 5];

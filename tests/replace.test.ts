@@ -1,5 +1,5 @@
 import * as test from "tape";
-import {replace} from "./replace";
+import {replace} from "..";
 
 test("Test element replacement", (t) => {
 	const input = [{a: 0}, {a: 1}, {a: 2}];
